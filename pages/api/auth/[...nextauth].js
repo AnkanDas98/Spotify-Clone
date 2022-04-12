@@ -41,6 +41,8 @@ async function refreshAccessToken(token) {
   }
 }
 
+console.log(process.env.SPOTIFY_CLIENT_ID);
+
 export default NextAuth({
   // Configure one or more authentication providers
   providers: [
